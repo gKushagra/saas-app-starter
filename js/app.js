@@ -107,5 +107,5 @@ document.getElementById("theme-switch").addEventListener("mouseout", () => {
 
 // redirect to different pages
 function routerLink(page) {
-    window.location.href = "http://127.0.0.1:5500/page" + page + "/index.html";
+    window.location.href = "https://oddfellow.in/saas-template/page" + page + "/index.html";
 }   
