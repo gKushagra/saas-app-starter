@@ -1,4 +1,4 @@
-document.getElementById("footer-note").innerHTML = `${new Date().getFullYear()} Rumzer LLC`;
+document.getElementById("footer-note").innerHTML = `${new Date().getFullYear()} OddFellow.com`;
 
 // change theme dark/light
 var darkMode = false;
@@ -107,5 +107,5 @@ document.getElementById("theme-switch").addEventListener("mouseout", () => {
 
 // redirect to different pages
 function routerLink(page) {
-    window.location.href = "http://127.0.0.1:5500/ipc" + page + "/index.html";
+    window.location.href = "http://127.0.0.1:5500/page" + page + "/index.html";
 }   
