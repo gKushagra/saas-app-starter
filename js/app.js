@@ -10,11 +10,11 @@ document.getElementById("theme-switch").addEventListener("change", () => {
 
         // menu icon
         if (menuOpen) { 
-            menuEl.style.backgroundImage = "url('./../assets/menu_open-24px.svg')";
+            menuEl.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/menu_open-24px.svg')";
         } else { 
-            drawerIconBtn1.style.backgroundImage = "url('./../assets/folder-black-18dp.svg')";
-            drawerIconBtn2.style.backgroundImage = "url('./../assets/folder-black-18dp.svg')";
-            menuEl.style.backgroundImage = "url('./../assets/menu-24px.svg')"; 
+            drawerIconBtn1.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/folder-black-18dp.svg')";
+            drawerIconBtn2.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/folder-black-18dp.svg')";
+            menuEl.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/menu-24px.svg')"; 
         }
 
         darkMode = false;
@@ -24,11 +24,11 @@ document.getElementById("theme-switch").addEventListener("change", () => {
         document.body.style.background = "#212121";
 
         // menu icon
-        if (menuOpen) menuEl.style.backgroundImage = "url('./../assets/menu_open-white-18dp.svg')";
+        if (menuOpen) menuEl.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/menu_open-white-18dp.svg')";
         else { 
-            drawerIconBtn1.style.backgroundImage = "url('./../assets/folder-white-18dp.svg')";
-            drawerIconBtn2.style.backgroundImage = "url('./../assets/folder-white-18dp.svg')";
-            menuEl.style.backgroundImage = "url('./../assets/menu-white-18dp.svg')"; 
+            drawerIconBtn1.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/folder-white-18dp.svg')";
+            drawerIconBtn2.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/folder-white-18dp.svg')";
+            menuEl.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/menu-white-18dp.svg')"; 
         }
 
         darkMode = true;
@@ -49,17 +49,17 @@ drawerIconViewEl.classList.add("drawer-icon_view--collapsed"); // menu is open i
 menuEl.addEventListener("click", () => {
     if (darkMode) {
         if (menuOpen) {
-            menuEl.style.backgroundImage = "url('./../assets/menu-white-18dp.svg')";
+            menuEl.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/menu-white-18dp.svg')";
             drawerEl.classList.add("drawer-collapsed");
             drawerContentEl.classList.add("drawer-content-expanded");
-            drawerIconBtn1.style.backgroundImage = "url('./../assets/folder-white-18dp.svg')";
-            drawerIconBtn2.style.backgroundImage = "url('./../assets/folder-white-18dp.svg')";
+            drawerIconBtn1.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/folder-white-18dp.svg')";
+            drawerIconBtn2.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/folder-white-18dp.svg')";
             setTimeout(() => { drawerIconViewEl.classList.remove("drawer-icon_view--collapsed"); }, 800);
             // if(!drawerListViewEl.classList.contains("drawer-list_view--collapsed")) drawerListViewEl.classList.add("drawer-list_view--collapsed");
             drawerListViewEl.classList.add("drawer-list_view--collapsed");
             menuOpen = false;
         } else {
-            menuEl.style.backgroundImage = "url('./../assets/menu_open-white-18dp.svg')";
+            menuEl.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/menu_open-white-18dp.svg')";
             drawerEl.classList.remove("drawer-collapsed");
             drawerContentEl.classList.remove("drawer-content-expanded");
             drawerIconViewEl.classList.add("drawer-icon_view--collapsed");
@@ -69,17 +69,17 @@ menuEl.addEventListener("click", () => {
         }
     } else {
         if (menuOpen) {
-            menuEl.style.backgroundImage = "url('./../assets/menu-24px.svg')";
+            menuEl.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/menu-24px.svg')";
             drawerEl.classList.add("drawer-collapsed");
             drawerContentEl.classList.add("drawer-content-expanded");
-            drawerIconBtn1.style.backgroundImage = "url('./../assets/folder-black-18dp.svg')";
-            drawerIconBtn2.style.backgroundImage = "url('./../assets/folder-black-18dp.svg')";
+            drawerIconBtn1.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/folder-black-18dp.svg')";
+            drawerIconBtn2.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/folder-black-18dp.svg')";
             setTimeout(() => { drawerIconViewEl.classList.remove("drawer-icon_view--collapsed"); }, 800);
             // if(!drawerListViewEl.classList.contains("drawer-list_view--collapsed")) drawerListViewEl.classList.add("drawer-list_view--collapsed");
             drawerListViewEl.classList.add("drawer-list_view--collapsed");
             menuOpen = false;
         } else {
-            menuEl.style.backgroundImage = "url('./../assets/menu_open-24px.svg')";
+            menuEl.style.backgroundImage = "url('https://oddfellow.in/saas-template/assets/menu_open-24px.svg')";
             drawerEl.classList.remove("drawer-collapsed");
             drawerContentEl.classList.remove("drawer-content-expanded");
             drawerIconViewEl.classList.add("drawer-icon_view--collapsed");
