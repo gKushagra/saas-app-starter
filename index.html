@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="shortcut icon" href="./assets/description-24px.svg" type="image/x-icon">
+  <title>IPC-175x Developer Docs</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- toolbar -->
+    <div class="toolbar">
+      <div class="toolbar-inner">
+        <div class="toolbar-title">
+          <button id="btn-menu"></button>
+          <span class="site-name">XMLifier Developer Docs</span>
+        </div>
+
+        <!-- change theme switch w -->
+        <div class="toolbar-ch-theme">
+          <div class="switch">
+            <div class="switch-slider"></div>
+            <input id="theme-switch" class="switch-checkbox" type="checkbox" name="ch-theme-switch">
+            <span class="switch-ball"></span>
+            <div id="switch-tooltip" class=""></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- drawer -->
+    <div class="drawer-container">
+      <div id="drawer" class="drawer">
+
+        <!-- drawer: icon view -->
+        <div id="drawer-icon_view" class="drawer-icon_view">
+          <div>
+            <button id="iconLinkBtn1" class="drawer--icon_link" type="button" onclick="routerLink('1751')"></button>
+            <span class="drawer--icon_label">IPC-1751</span>
+          </div>
+          <div>
+            <button id="iconLinkBtn2" class="drawer--icon_link" type="button" onclick="routerLink('1752')"></button>
+            <span class="drawer--icon_label">IPC-1752</span>
+          </div>
+        </div>
+
+        <!-- drawer: list view -->
+        <div id="drawer-list_view" class="drawer-list_view">
+          <ul class="drawer-list">
+            <li class="drawer-list--item">
+              <a class="drawer-list--item_link" href="http://127.0.0.1:5500/ipc1751/index.html">IPC-1751</a>
+            </li>
+            <li class="drawer-list--item">
+              <a class="drawer-list--item_link" href="http://127.0.0.1:5500/ipc1752/index.html">IPC-1752</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div id="drawer-content" class="drawer-content">
+        <h1>Hello World!</h1>
+      </div>
+    </div>
+
+    <!-- footer toolbar -->
+    <div class="footer-toolbar">
+      <span id="footer-note" class="footer-note"></span>
+    </div>
+
+  </div>
+
+  <!-- js -->
+  <script src="/js/app.js"></script>
+
+</body>
+
+</html>
